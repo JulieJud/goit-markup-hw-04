@@ -215,3 +215,16 @@ footer {
 .link.down:last-child {
   margin-bottom: 0px;
 }
+
+.add {
+  display: ;
+  padding-left: 516px;
+}
+
+.addname {
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}

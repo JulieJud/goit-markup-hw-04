@@ -119,6 +119,8 @@
   background-color: var(--primary-bg-color);
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 /*portfolio*/
@@ -212,8 +214,9 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  outline: 1px solid black;
+
   list-style: none;
+  margin-top: 16px;
 }
 
 .action .icon {
@@ -224,6 +227,7 @@
   padding: 0;
   border: none;
   background-color: var(--primary-bg-color);
+  padding: 12px;
 }
 
 .action .icon:hover {
