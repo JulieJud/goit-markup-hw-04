@@ -226,22 +226,24 @@
   height: 44px;
   padding: 0;
   border: none;
-  background-color: var(--primary-bg-color);
+  color: var(--social-icon);
   padding: 12px;
 }
 
-.action .icon:hover {
+.action .icon:hover,
+.action .icon:focus {
   background-color: var(--accent-color);
 }
 
 .social {
   width: 20px;
   height: 20px;
-  fill: var(--social-icon);
+  fill: currentColor;
+  /* fill: var(--social-icon);*/
 }
 
 .social:hover {
-  fill: var(--primary-bg-color);
+  color: var(--primary-bg-color);
 }
 
 /* цвет основной текста  #212121*/

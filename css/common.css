@@ -20,6 +20,7 @@ html {
   --header-border: rgba(236, 236, 236, 1);
   --card-border: rgba(238, 238, 238, 1);
   --social-icon: rgba(175, 177, 184, 1);
+  --bg-icon-color: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -196,6 +197,7 @@ footer {
 
 .adressf {
   margin-top: 20px;
+  min-width: 231px;
 }
 
 .adress-footer {
@@ -216,9 +218,15 @@ footer {
   margin-bottom: 0px;
 }
 
-.add {
-  display: ;
-  padding-left: 516px;
+.page-footer > .container {
+  display: flex;
+  align-items: center;
+  min-width: 206px;
+}
+
+.container.add {
+  margin-left: 70px;
+  padding: 0;
 }
 
 .addname {
@@ -227,4 +235,25 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.action.f {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  margin-top: 16px;
+}
+
+.action .icon-items:not(:first-child) {
+  margin-left: 10px;
+}
+
+.action.f .icon {
+  color: var(--primary-bg-color);
+  background-color: var(--bg-icon-color);
 }
