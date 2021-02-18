@@ -205,6 +205,41 @@
   width: 370px;
 }
 
+/*social links section */
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid black;
+  list-style: none;
+}
+
+.action .icon {
+  display: block;
+  border-radius: 54%;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  background-color: var(--primary-bg-color);
+}
+
+.action .icon:hover {
+  background-color: var(--accent-color);
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  fill: var(--social-icon);
+}
+
+.social:hover {
+  fill: var(--primary-bg-color);
+}
+
 /* цвет основной текста  #212121*/
 /* цвет вторичный текста #757575* 
 /* белый*color: #FFFFFF */
