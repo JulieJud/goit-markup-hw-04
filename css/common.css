@@ -21,6 +21,7 @@ html {
   --card-border: rgba(238, 238, 238, 1);
   --social-icon: rgba(175, 177, 184, 1);
   --bg-icon-color: rgba(255, 255, 255, 0.1);
+  --gradient-color: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -197,7 +198,6 @@ footer {
 
 .adressf {
   margin-top: 20px;
-  min-width: 231px;
 }
 
 .adress-footer {
@@ -220,14 +220,14 @@ footer {
 
 .page-footer > .container {
   display: flex;
-  align-items: center;
-  min-width: 206px;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
-.container.add {
+/*.add {
   margin-left: 70px;
   padding: 0;
-}
+}*/
 
 .addname {
   color: var(--primary-bg-color);

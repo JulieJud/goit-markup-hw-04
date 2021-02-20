@@ -1,9 +1,17 @@
 /*hero section */
 .hero {
-  background-color: var(--hero-color);
   text-align: center;
   min-height: 600px;
   padding-top: 200px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      var(--gradient-color),
+      var(--gradient-color)
+    ),
+    url(../images/hero.jpg);
+  background-color: var(--hero-color);
 }
 
 .hero-title {
@@ -121,6 +129,8 @@
   padding-bottom: 30px;
   padding-right: 32px;
   padding-left: 32px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /*portfolio*/
@@ -220,14 +230,15 @@
 }
 
 .action .icon {
-  display: block;
+  display: flex;
   border-radius: 54%;
   width: 44px;
   height: 44px;
   padding: 0;
   border: none;
   color: var(--social-icon);
-  padding: 12px;
+  justify-content: center;
+  align-items: center;
 }
 
 .action .icon:hover,
@@ -244,6 +255,40 @@
 
 .social:hover {
   color: var(--primary-bg-color);
+}
+
+/* Postojannye klienty*/
+.mainclient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.mainclient .klient {
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--social-icon);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainclient .klient-item {
+  color: var(--social-icon);
+}
+
+.clientlabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  fill: currentColor;
 }
 
 /* цвет основной текста  #212121*/
