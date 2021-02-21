@@ -23,10 +23,10 @@
 
             <ul class="site-nav list">
                 <li class="site-list">
-                    <a href="./index.html" class="link">Студия</a>
+                    <a href="./index.html" class="link current">Студия</a>
                 </li>
                 <li class="site-list">
-                    <a href="./portfolio.html" class="link current">Портфолио</a>
+                    <a href="./portfolio.html" class="link">Портфолио</a>
                 </li>
                 <li class="site-list">
                     <a href="" class="link">Контакты</a>
@@ -35,8 +35,16 @@
 
         </nav>
         <address class="adress">
-            <a class="link mail" href="mailto:info.devstudio@.com"> info.devstudio@.com</a>
-            <a class="link" href="tel:+38096111111"> +38 096 111 111 11</a>
+            <a class="link" href="mailto:info.devstudio@.com">
+                <svg width="16" heigh="12" class="adres-svg">
+                    <use href="./images/symbol-def.svg#icon-envelope-1"></use>
+                </svg>
+                info.devstudio@.com</a>
+            <a class="link" href="tel:+38096111111">
+                <svg width="10" heigh="16" class="adres-svg">
+                    <use href="./images/symbol-def.svg#icon-smartphone-1"></use>
+                </svg>
+                +38 096 111 111 11</a>
 
         </address>
     </div>
@@ -228,20 +236,64 @@
 
   
     </main>
-<footer>
+<footer class="page-footer">
     <div class="container">
-        <a href="/" class="logo down">
-            <span class="partlogo">Web</span><span class="fpartslogo">Studio</span>
-        </a>
-        <address class="adressf">
-            <p class="adress-footer"> г. Киев, пр-т Леси Украинки, 26 </p>
+        <div class="adr">
 
-            <a class="link down" href="maito:info@example.com"> info@example.com</a>
+            <a href="/" class="logo down">
+                <span class="partlogo">Web</span><span class="fpartslogo">Studio</span>
+            </a>
+            <address class="adressf">
+                <p class="adress-footer"> г. Киев, пр-т Леси Украинки, 26 </p>
 
-            <a class="link down" href="tel:+38096111111"> +38 096 111 111 11</a>
-        </address>
+                <a class="link down" href="maito:info@example.com"> info@example.com</a>
 
+                <a class="link down" href="tel:+38096111111"> +38 096 111 111 11</a>
+            </address>
+        </div>
+
+        <div class="add">
+
+            <b class="addname">
+                Присоединяйтесь
+            </b>
+            <ul class="action f">
+                <li class="icon-items">
+                    <a href="" class="icon">
+                        <svg class="social">
+                            <use href="./images/symbol-def.svg#icon-instagram-2-1"></use>
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="icon-items">
+                    <a href="" class="icon">
+                        <svg class="social">
+                            <use href="./images/symbol-def.svg#icon-twitter-1-1"></use>
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="icon-items">
+                    <a href="" class="icon">
+                        <svg class="social">
+                            <use href="./images/symbol-def.svg#icon-facebook-1-1"></use>
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="icon-items">
+                    <a href="" class="icon">
+                        <svg class="social">
+                            <use href="./images/symbol-def.svg#icon-linkedin-1-1"></use>
+                        </svg>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
+
 </footer>
 </body>
 
