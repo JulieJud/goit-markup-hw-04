@@ -514,6 +514,12 @@ footer {
   padding-bottom: 60px;
 }
 
+.page-footer > .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .adressf .adress-footer {
   color: var(--primary-bg-color);
   font-style: normal;
@@ -555,17 +561,6 @@ footer {
   margin-bottom: 0px;
 }
 
-.page-footer > .container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-/*.add {
-  margin-left: 70px;
-  padding: 0;
-}*/
-
 .addname {
   color: var(--primary-bg-color);
   font-weight: 700;
@@ -598,4 +593,8 @@ footer {
 .f .icon:hover,
 .f .icon:focus {
   background-color: var(--accent-color);
+}
+
+.connect {
+  width: 570px;
 }
