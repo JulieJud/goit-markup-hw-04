@@ -294,21 +294,11 @@
   width: 170px;
   display: flex;
   justify-content: center;
-
   border: 1px solid var(--social-icon);
   border-radius: 4px;
   align-items: center;
   color: var(--social-icon);
 }
-
-/*.mainclient .klient-link {
-  display: flex;
-  justify-content: center;
-
-  border: 1px solid currentColor;
-  border-radius: 4px;
-  align-items: center;
-}*/
 
 .mainclient .klient:not(:first-child) {
   margin-left: 30px;
@@ -338,11 +328,3 @@
   height: 120px;
   margin-bottom: 30px;
 }
-
-/* цвет основной текста  #212121*/
-/* цвет вторичный текста #757575* 
-/* белый*color: #FFFFFF */
-/*rgba(236, 236, 236, 1)*/
-/*rgba(245, 244, 250, 1)*/
-/*rgba(47, 48, 58, 1)*/
-/* цвет акцент color: #2196F3*/ ;
