@@ -85,9 +85,6 @@ img {
 }
 
 .adress .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -95,10 +92,19 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
 }
 
-.link.mail {
-  margin-right: 50px;
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
+.adres-svg {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .logo {
