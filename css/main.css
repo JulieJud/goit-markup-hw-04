@@ -590,7 +590,12 @@ footer {
   margin-left: 10px;
 }
 
-.action.f .icon {
+.f .icon {
   color: var(--primary-bg-color);
   background-color: var(--bg-icon-color);
+}
+
+.f .icon:hover,
+.f .icon:focus {
+  background-color: var(--accent-color);
 }
